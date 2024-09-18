@@ -6,7 +6,7 @@ let package = Package(
   name: "GooglePlaces", platforms: [.iOS(.v15)],
   products: [
     .library(name: "GooglePlaces", targets: ["GooglePlacesTarget"]),
-    .library(name: "GooglePlacesSwift", targets: ["GooglePlacesSwiftTarget"])
+    .library(name: "GooglePlacesSwiftPreview", targets: ["GooglePlacesSwiftTarget"])
   ], dependencies: [],
   targets: [
     .binaryTarget(
